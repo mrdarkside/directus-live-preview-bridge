@@ -81,7 +81,7 @@ try {
   const { createApp, h, reactive, nextTick } =
     await import('vue/dist/vue.runtime.esm-browser.prod.js');
   document.body.innerHTML =
-    '<div id="app"></div><div class="live-preview"><iframe id="frame"></iframe></div>';
+    '<div id="app"></div><div class="live-preview"><iframe id="frame" srcdoc=""></iframe></div>';
   const state = reactive({ edits: {}, initialValues: { status: 'draft' } });
   const form = {
     props: ['fields', 'primaryKey', 'modelValue', 'initialValues'],

@@ -186,9 +186,9 @@ builds the bundle, and validates the Directus manifest. Use `npm run dev` for a
 watch build or `npm run link` to link the package into a local Directus
 extensions directory.
 
-The full development dependency audit currently reports an upstream `unhead`
-advisory through the Directus SDK. It is not included in the compiled extension
-or installed by package consumers. The
+The full development dependency audit currently reports upstream `vite`
+advisories through the Directus SDK. Vite is not included in the compiled
+extension or installed by package consumers. The
 [security policy](https://github.com/mrdarkside/directus-live-preview-bridge/blob/main/SECURITY.md#development-dependency-audit)
 records the dependency path and verification commands.
 
