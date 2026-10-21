@@ -20,7 +20,7 @@ const cleanups: (() => void)[] = [];
 function setupBrowser() {
   vi.useFakeTimers({ toFake: ['setInterval', 'clearInterval'] });
   document.body.innerHTML =
-    '<div id="app"></div><div id="teleported"></div><div class="live-preview"><iframe id="frame"></iframe></div>';
+    '<div id="app"></div><div id="teleported"></div><div class="live-preview"><iframe id="frame" srcdoc=""></iframe></div>';
   const frame = document.querySelector<HTMLIFrameElement>('#frame')!;
   // Keep the real iframe Window, without making a network request.
   Object.defineProperty(frame, 'src', {
