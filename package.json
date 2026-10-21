@@ -1,6 +1,6 @@
 {
   "name": "directus-live-preview-bridge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Stream unsaved Directus item edits to Live Preview frontends.",
   "icon": "preview",
   "keywords": [
@@ -9,17 +9,17 @@
     "directus-extension-bundle",
     "live-preview"
   ],
-  "homepage": "https://github.com/ritsa-tech/directus-live-preview-bridge#readme",
+  "homepage": "https://github.com/mrdarkside/directus-live-preview-bridge#readme",
   "bugs": {
-    "url": "https://github.com/ritsa-tech/directus-live-preview-bridge/issues"
+    "url": "https://github.com/mrdarkside/directus-live-preview-bridge/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ritsa-tech/directus-live-preview-bridge.git"
+    "url": "git+https://github.com/mrdarkside/directus-live-preview-bridge.git"
   },
   "author": {
-    "name": "Ritsa Tech",
-    "url": "https://ritsa.tech"
+    "name": "Tom (mrdarkside)",
+    "url": "https://github.com/mrdarkside"
   },
   "license": "MIT",
   "type": "module",
@@ -72,8 +72,10 @@
   "devDependencies": {
     "@directus/extensions-sdk": "18.0.4",
     "@types/node": "^22.20.1",
+    "happy-dom": "^20.14.0",
     "prettier": "^3.9.6",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.11",
+    "vue": "^3.5.24"
   }
 }

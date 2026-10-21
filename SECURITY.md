@@ -1,7 +1,7 @@
 # Security policy
 
 Please do not report security problems in a public issue. Send a
-[private vulnerability report](https://github.com/ritsa-tech/directus-live-preview-bridge/security/advisories/new)
+[private vulnerability report](https://github.com/mrdarkside/directus-live-preview-bridge/security/advisories/new)
 through GitHub.
 
 Include the affected version, a minimal reproduction, and the impact you
