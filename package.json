@@ -9,17 +9,17 @@
     "directus-extension-bundle",
     "live-preview"
   ],
-  "homepage": "https://github.com/ritsa-tech/directus-live-preview-bridge#readme",
+  "homepage": "https://github.com/mrdarkside/directus-live-preview-bridge#readme",
   "bugs": {
-    "url": "https://github.com/ritsa-tech/directus-live-preview-bridge/issues"
+    "url": "https://github.com/mrdarkside/directus-live-preview-bridge/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ritsa-tech/directus-live-preview-bridge.git"
+    "url": "git+https://github.com/mrdarkside/directus-live-preview-bridge.git"
   },
   "author": {
-    "name": "Ritsa Tech",
-    "url": "https://ritsa.tech"
+    "name": "Tom (mrdarkside)",
+    "url": "https://github.com/mrdarkside"
   },
   "license": "MIT",
   "type": "module",

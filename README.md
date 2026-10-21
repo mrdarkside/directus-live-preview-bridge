@@ -189,13 +189,13 @@ extensions directory.
 The full development dependency audit currently reports an upstream `unhead`
 advisory through the Directus SDK. It is not included in the compiled extension
 or installed by package consumers. The
-[security policy](https://github.com/ritsa-tech/directus-live-preview-bridge/blob/main/SECURITY.md#development-dependency-audit)
+[security policy](https://github.com/mrdarkside/directus-live-preview-bridge/blob/main/SECURITY.md#development-dependency-audit)
 records the dependency path and verification commands.
 
 Releases use Conventional Commits and Release Please. The publish job uses npm
 trusted publishing. npm requires the package to exist before that trust can be
 configured, so maintainers must publish the initial version manually. After
-that, configure `ritsa-tech/directus-live-preview-bridge` and
+that, configure `mrdarkside/directus-live-preview-bridge` and
 `.github/workflows/release-please.yml` as the trusted publisher. The publish job
 uses an `npm` GitHub environment. Add required reviewers to that environment if
 releases need manual approval.
